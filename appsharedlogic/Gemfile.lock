@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (1.1.0)
+    java-properties (0.3.0)
+
+PLATFORMS
+  arm64-darwin-22
+  arm64-darwin-23
+  ruby
+  x86_64-darwin-23
+  x86_64-linux
+
+DEPENDENCIES
+  colorize
+  java-properties
+
+BUNDLED WITH
+   2.5.23

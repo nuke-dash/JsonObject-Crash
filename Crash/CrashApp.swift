@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppSharedLogicMultiPlatform
 
 @main
 struct CrashApp: App {

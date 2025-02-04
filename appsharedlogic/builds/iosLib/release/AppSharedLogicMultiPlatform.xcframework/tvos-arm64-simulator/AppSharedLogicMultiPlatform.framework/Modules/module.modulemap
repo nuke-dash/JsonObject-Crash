@@ -1,0 +1,8 @@
+framework module "AppSharedLogicMultiPlatform" {
+    umbrella header "AppSharedLogicMultiPlatform.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}

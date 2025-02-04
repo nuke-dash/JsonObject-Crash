@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6E6412572D52142900509437 /* AppSharedLogicMultiPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6412562D52142900509437 /* AppSharedLogicMultiPlatform.xcframework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6E64123A2D52036600509437 /* Crash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6412562D52142900509437 /* AppSharedLogicMultiPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AppSharedLogicMultiPlatform.xcframework; path = appsharedlogic/builds/iosLib/release/AppSharedLogicMultiPlatform.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E6412572D52142900509437 /* AppSharedLogicMultiPlatform.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +40,7 @@
 			children = (
 				6E64123C2D52036600509437 /* Crash */,
 				6E64123B2D52036600509437 /* Products */,
+				6E6412562D52142900509437 /* AppSharedLogicMultiPlatform.xcframework */,
 			);
 			sourceTree = "<group>";
 		};

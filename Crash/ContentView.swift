@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppSharedLogicMultiPlatform
 
 struct ContentView: View {
     var body: some View {
@@ -16,6 +17,15 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear {
+            Task {
+                let container = Container()
+                let eccConfigRetriever = container.eccConfigRetriever
+                let catalog = try? await eccConfigRetriever.config()
+                print(String(describing: catalog?.alternatives.first?.asServer()?.queryDefinitionAsString))
+                print(String(describing: catalog?.alternatives.first?.asServer()?.queryDefinition))
+            }
+        }
     }
 }
 
